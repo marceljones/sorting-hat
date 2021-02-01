@@ -1,26 +1,70 @@
 console.log("The best things in life are yet to come.")
 
-const houses = [
+//Consider adding images as a stretch goal
+
+const students = [
   {
-    name: '',
-    image: ''
+    studentName: 'Harry Potter',
+    house: 'Ravenclaw'
   },
 
   {
-    name: '',
-    image: ''
+    studentName: 'Katie Bell',
+    house: 'Slytherin'
   },
 
   {
-    name: '',
-    image: ''
+    studentName: 'Ron Weasley',
+    house: 'Ravenclaw'
   },
 
   {
-    name: '',
-    image: ''
+    studentName: 'Neville Longbottom',
+    house: 'Ravenclaw'
+  },
+
+  {
+    studentName: 'Ginny Weasley',
+    house: 'Hufflepuff'
+  },
+
+  {
+    studentName: 'Lavender Brown',
+    house: 'Slytherin'
+  },
+
+  {
+    studentName: 'Hermione Granger',
+    house: 'Hufflepuff'
+  },
+
+  {
+    studentName: 'Hannah Abbott',
+    house: 'Gryffindor'
+  },
+  {
+    studentName: 'Pansy Parkinson',
+    house: 'Ravenclaw'
+  },
+
+  {
+    studentName: 'Parvati Patil',
+    house: 'Hufflepuff'
+  },
+  {
+    studentName: 'Colin Creevey',
+    house: 'Gryffindor'
+  },
+
+  {
+    studentName: 'Ernie Macmillan',
+    house: 'Slytherin'
   }
-]
+];
+
+const printToDom = (divId, textToPrint) => {
+  const 
+}
 
 //List of student names
 // Harry Potter
