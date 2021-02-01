@@ -7,15 +7,48 @@
   <link rel="icon" href="data:;base64,=" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
-  <title>Document</title>
+  <title>Sorting Hat</title>
 </head>
  
 <body>
-  <div class="bg">
-    <img src=""
+  <div id="background">
+    <div class="d-flex row justify-content-center h-100" id='jumbo-div">
+      <div class="jumbotron my-auto" id='jumbo'style=''>
+        <h1 class="welcome-heading">Welcome to Hoggy Hoggy Warts!</h1>
+        <p class="welcome-text">Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter. Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats. Stan Shunpike doe patronus, suck his soul Muggle-Born large order of drills the trace. Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.</p>
+        <hr class="welcome">
+                <div id='jumbo-low'>    
+                    <p class='d-flex justify-content-center'>The hat sorts students into one of the four Hogwarts houses.</p>
+                    <p class='d-flex justify-content-center'>Click the button below and let's start sorting students!</p>
+                    <div class='d-flex justify-content-center'>
+                        <button id='start-button' class="btn btn-primary btn-lg">Let's Start Sorting!</button>
+                    </div>
+                </div> 
+                </div>       
     </div>
+    
+
+    <div class = "d-flex row justify-content-center h-100" id='student'>
+      <form style='display:none' id='name-input' class='w-90 p-2 bg-info'>
+          <div class="student-form d-flex flex-column justify-content-center p-2">
+              <h3>Enter Name</h3>
+              <input type="text" class="form-control w-50 text-center m-3" id="student-name" placeholder="Student">
+          </div>
+          <div class="d-flex row justify-content-center m-2 p-3">
+              <button type="submit" class="btn btn-primary" id='sort-button'>Sort!</button>
+          </div>
+      </form>
+   </div>   
+
+      <div id='card-div' class = "d-flex row justify-content-center"></div>
+      
+      <div id='axelrod-div' class = "d-flex row justify-content-center"></div>
+ 
+    
+</div>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="main.js"></script>
+  <!-- <footer>Copyright February 2021. Marcel Jones-Puryear. All Rights Reserved.</footer>  -->
 </body>
 </html>
-
